@@ -1,3 +1,4 @@
+import random
 print("=== GAME TEBAK ANGKA ===")
 print("Aku sudah memilih angka dari 1 sampai 20.")
 print("Coba tebak ya!\n")
@@ -16,4 +17,4 @@ while True:
     else:
         print(f"Benar! Angkanya adalah {angka_rahasia}.")
         print(f"Kamu menebak dalam {percobaan} percobaan.")
-        break
+        break
